@@ -7,18 +7,26 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.header, .footer {
+.top, .footer {
     background-color: #1F2937;
+
 
 }
 
 
+.top {
+
+
+}
+
 .header {
 
 
+}
 
+.hero {
 
-
+    
 }
 
 
