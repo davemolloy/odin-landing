@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
+/* {border: black 1px solid;} */
+
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
 }
+
+/* hero */
 
 .top, .footer {
     background-color: #1F2937;
@@ -13,37 +17,164 @@ body {
 
 }
 
-
-.top {
-
+.button {
+    background-color: #3882f6;
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 1px white solid;
+    color: white;
 
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
 
+.header h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
 
+.header ul {
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style: none;
+    display: flex;
+    gap: 24px
 }
 
 .hero {
-
-    
+    display: flex;
+    color: #f9faf8;
+    font-size: 18px;
+    margin: 10px 100px;
+    padding: 50px 0px;;
 }
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    text-align: center;
+    margin-left: 16px;
+}
+
+.right p {
+    padding: 0;
+    margin: 0;
+    flex: 1;
+
+}
+
+/* Info section */
+
+
 
 
 .info {
+    text-align: center;
+    padding: 0px 50px;
+
+
+}
+
+.info h1 {
+    font-size: 32px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
 
 
 
+.infobox {
+    width: 150px;
+
+}
+
+.infobox img {
+    border: #3882f6 1px solid;
+    border-radius: 10px;
 
 }
 
 .quote {
+    background-color: #e5e7eb;
+}
+
+.quotebox {
+    width: 600px;
+    margin: 40px auto;
+    padding: 50px;
+}
+
+.quotebox em {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quotebox p {
+    font-weight: bolder;
+    text-align: right;
+
+}
+
+
+
+.signup {
 
 
 }
 
 
-.footer {
+.actionbox {
+    color: #f9faf8;
+    border-radius: 10px;
+    width: 600px;
+    background-color: #3882f6;
+    margin: 40px auto;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.actionbox h3 {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+
+
+
+
+.footer {
+    color: #e5e7eb;
+    padding: 30px;
+    text-align: center;
 
 }
